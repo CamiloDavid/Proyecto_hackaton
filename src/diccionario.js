@@ -1,4 +1,4 @@
-const municipios = [
+export const municipios = [
     {
         nombre: "El tambo",
         posicion: [2.4525, -76.7269],
@@ -14,8 +14,8 @@ const municipios = [
         imagen1: "https://es.m.wikipedia.org/wiki/Archivo:Flower_of_Spathodea_campanulata_at_Muzhappilangad_.jpg"
     },
     {
-        nombre: "Puracé",
-        posicion: [2.5111, -76.2611],
+        nombre: "Purace",
+        posicion: [2.336, -76.497],
         reseña: "Puracé es un municipio ubicado en el departamento del Cauca, Colombia, conocido por su impresionante paisaje montañoso y su biodiversidad. El principal atractivo de la zona es el Parque Nacional Natural Puracé, que alberga el volcán Puracé, uno de los más activos del país. Este parque es un paraíso para los amantes de la naturaleza, ofreciendo senderos que atraviesan páramos, bosques y fuentes termales. Puracé también es hogar de comunidades indígenas que conservan sus tradiciones ancestrales, lo que añade una dimensión cultural única a la visita. Es un destino ideal para el ecoturismo y la aventura.",
         imagen: "https://es.m.wikipedia.org/wiki/Archivo:AndeanCondorMale.jpg",
         imagen1: "https://es.m.wikipedia.org/wiki/Archivo:Papaver_somniferum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-102.jpg"
@@ -40,6 +40,5 @@ const municipios = [
         reseña: "Según la CRC, durante los últimos años se ha llevado a cabo registros de más de 20 especies de fauna silvestre, mediante la instalación de cámaras fauna, en la vereda Río Sucio, del municipio de Inzá. Entre las especies registradas están Pumas concolor, venados de páramo, dantas de montaña, tigrillos y zarigüeyas..",
         imagen: "https://www.periodicolacampana.com/wp-content/uploads/2023/07/Foto-inicio-420x470.jpeg",
         imagen1: "https://www.picturethisai.com/image-handle/website_cmsname/image/1080/201207041587544064.jpeg?x-oss-process=image/format,webp/resize,s_422&v=1.3"
-    },
-    // Agrega más municipios según sea necesario
+    }
 ];
