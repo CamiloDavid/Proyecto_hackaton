@@ -1,8 +1,8 @@
 import React from 'react';
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
+import { MapContainer, TileLayer, Marker, Popup, Tooltip } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
-import {municipios} from './diccionario';
+import { municipios } from './diccionario';
 
 // Corrige los íconos rotos
 delete L.Icon.Default.prototype._getIconUrl;
@@ -22,6 +22,11 @@ const MapView = () => {
             />
             {municipios.map((municipio, index) => (
                 <Marker key={index} position={municipio.posicion}>
+                    {/* Tooltip para mostrar el nombre del municipio en el marcador */}
+                    <Tooltip direction="top" offset={[0, -10]} opacity={1} permanent>
+                        {municipio.nombre}
+                    </Tooltip>
+
                     <Popup>
                         <strong>{municipio.nombre}</strong><br />
                         {municipio.reseña}<br />
