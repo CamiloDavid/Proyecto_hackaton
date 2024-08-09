@@ -1,4 +1,4 @@
-const municipios = [
+export const municipios = [
     {
         nombre: "El tambo",
         posicion: [2.4525, -76.7269],
@@ -11,14 +11,14 @@ const municipios = [
         posicion: [2.441, -76.606],
         reseña: "Popayán, conocida como la Ciudad Blanca por el color de sus edificios coloniales, es la capital del departamento del Cauca en Colombia. Es famosa por su arquitectura bien conservada, iglesias históricas y una rica tradición cultural, especialmente durante la Semana Santa, cuando se celebran procesiones religiosas reconocidas internacionalmente. Además, Popayán es un importante centro gastronómico, conocido por sus delicias tradicionales como la empanada de pipián.",
         imagen: "https://inaturalist-open-data.s3.amazonaws.com/photos/93482880/medium.jpg",
-        imagen1: "https://inaturalist-open-data.s3.amazonaws.com/photos/29202704/medium.jpeg"
+        imagen1: "https://inaturalist-open-data.s3.amazonaws.com/photos/209476979/medium.jpeg"
     },
     {
-        nombre: "Puracé",
-        posicion: [2.5111, -76.2611],
+        nombre: "Purace",
+        posicion: [2.336, -76.497],
         reseña: "Puracé es un municipio ubicado en el departamento del Cauca, Colombia, conocido por su impresionante paisaje montañoso y su biodiversidad. El principal atractivo de la zona es el Parque Nacional Natural Puracé, que alberga el volcán Puracé, uno de los más activos del país. Este parque es un paraíso para los amantes de la naturaleza, ofreciendo senderos que atraviesan páramos, bosques y fuentes termales. Puracé también es hogar de comunidades indígenas que conservan sus tradiciones ancestrales, lo que añade una dimensión cultural única a la visita. Es un destino ideal para el ecoturismo y la aventura.",
         imagen: "https://static.inaturalist.org/photos/275084736/medium.jpeg",
-        imagen1: "Parque nacional natural Purace, https://www.parquesnacionales.gov.co/wp-content/uploads/2023/05/purace.jpg"
+        imagen1: "https://www.parquesnacionales.gov.co/wp-content/uploads/2023/05/purace.jpg"
     },
     {
         nombre: "Guapi",
@@ -40,6 +40,5 @@ const municipios = [
         reseña: "Según la CRC, durante los últimos años se ha llevado a cabo registros de más de 20 especies de fauna silvestre, mediante la instalación de cámaras fauna, en la vereda Río Sucio, del municipio de Inzá. Entre las especies registradas están Pumas concolor, venados de páramo, dantas de montaña, tigrillos y zarigüeyas..",
         imagen: "https://www.periodicolacampana.com/wp-content/uploads/2023/07/Foto-inicio-420x470.jpeg",
         imagen1: "https://www.picturethisai.com/image-handle/website_cmsname/image/1080/201207041587544064.jpeg?x-oss-process=image/format,webp/resize,s_422&v=1.3"
-    },
-    // Agrega más municipios según sea necesario
+    }
 ];

@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import MapView from './MapView';
 import { data_imagen } from './datos_principal';
-
+import prueba from './prueba.png';
 
 function App() {
   return (
@@ -13,6 +13,7 @@ function App() {
       <div className="container">
         <div className="left-column">
           {/* Contenido adicional en la columna izquierda */}
+          <p><img src={prueba} style={{width: '100%', height: 'auto'}} /></p>
           <p><h3>DEPARTAMENTO DEL CAUCA</h3></p>
             {data_imagen.map((image, index) => (
               <div key={index}>
